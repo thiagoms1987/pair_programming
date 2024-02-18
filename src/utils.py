@@ -30,5 +30,3 @@ def get_completion(prompt: str, tool_name: str, model: str = "gpt-3.5-turbo-0125
         logging.error("Error: try again later.")
         logging.error(e)
     return final_response
-
-#print(get_completion("crie uma funcao que adiciona dois numeros.","z"))
